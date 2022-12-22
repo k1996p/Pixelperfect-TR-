@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Gifts from Things Remembered</title>
+    <script src="https://kit.fontawesome.com/d53cfefa11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="sticky">
+        <header>
+            <div id="header-container">
+                <div class="left-header col-3">
+                    <ul>
+                        <li><button class="openbtn" onclick="openNav()">☰</button></li>
+                        <li onmouseover="hover()" onmouseout="hoverout()"><a href="#" target="_blank"><img id="location"
+                                    src="images/icon-location.svg" alt="location logo"><span>Store
+                                    Finder</span></a></li>
+                    </ul>
+                </div>
+                <div class="center-header col-3">
+                    <a href="index.html">
+                        <img src="images/LOGO_TAG.svg" alt="LOGO TAG">
+                    </a>
+                </div>
+                <div class="right-header col-3">
+                    <ul>
+                        <li><input type="search" name="" id="" placeholder="Search" class="search-btn"><a href="#"
+                                target="_blank"><img id="search" src="images/icon-search.svg" alt="search logo"
+                                    onmouseover="hover1()" onmouseout="hoverout1()"></a></li>
+                        <li onmouseover="hover2()" onmouseout="hoverout2()" class="acc-ico"><a href="#"
+                                target="_blank"><img id="account" src="images/icon-account.svg" alt="account logo"></a>
+                        </li>
+                        <li onmouseover="hover3()" onmouseout="hoverout3()"><a href="#" target="_blank"><img id="cart"
+                                    src="images/icon-cart.svg" alt="cart logo"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <nav id="nav" class="trnavigation hidetrnav">
+            <div class="closingsection">
+                <button class="closebtn" onclick="closeNav()"></button>
+            </div>
+            <ul class="menu">
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Holiday</a><span class="r8arrow"></span></div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">DECK THE HALLS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Ornaments</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Stockings</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Snow Globes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Frames</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All Holiday Décor</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">SHOP BY GIFT</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Ready To Give Gifts</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Scarves</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Blankets</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Sterling Silver Jewelry For
+                                                        Women</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Watches & Accessories For Men</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">SHOP BY PERSONALITY</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Spirited Sipper</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Entertainer</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Accessory Enthusiast</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Ones On The Go</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Snuggle Bug</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Organized Friends</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Little Ones</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">The Furry Ones</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">GET INSPIRED</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Top Gifts For Friends & Family</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Holiday Gift Guide</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-frames-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP ORNAMENTS</span>
+                                    </div>
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-snowglobes-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP STOCKINGS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Occasions & Gift Ideas</a><span class="r8arrow"></span>
+                            </div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">GIFTS BY OCCASION</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Holiday</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Birthday</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Graduation</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wedding & Engagement</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Anniversary</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Sympathy</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Retirement</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">New Baby</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Housewarming</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Thank You</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">GIFTS BY RECIPIENT</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Mom</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Dad</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Baby</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Kids</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Teens</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Her</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Him</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Grandparents</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Friends</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Teachers</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bosses</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Pets & Pet Parents</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">RELIGIOUS GIFTS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Baptism & Christening</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">First Communion</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Confirmation</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cross Gifts</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer1">
+                                        <img class="imgcontainer1" src="images/092221-meganav-accessories.jpg" alt="">
+                                        <span class="imgtxt">START YOUR HOLIDAY PLANING</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Jewelry</a><span class="r8arrow"></span></div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">FOR HER</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Necklaces</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bracelets</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Lockets</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Watches</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Rings</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Birthstone Jewelry</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Jewelry Boxes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">FOR HIM</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Watches</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">ID Bracelets</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Dog Tags & Necklaces</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cuff Links</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Tie Clips</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Pocket Watches</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Watch Boxes & Valets</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">BABY, KIDS, TEENS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Girls Jewelry</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Boys Jewelry</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">COLLECTIONS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Heart Jewelry</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cross Jewelry</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Charms</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Urn Necklaces</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bestselling Jewelry</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-bestsellher-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP JWERELY FOR HER</span>
+                                    </div>
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-bestsellhim-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP JWERELY FOR HIM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Accessories</a><span class="r8arrow"></span></div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">PERSONAL ACCESSORIES</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Keychains</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Card Cases</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wallets & Money Clips</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Pocket Knives & Tools</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cigar Cases & Humidors</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Compact Mirrors</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Robes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Scarves & Wraps</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Beach Towels & Accessories</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">ACCESSORY STORAGE</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Keepsake Boxes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Jewelry Boxes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Music Boxes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Watch Boxes & Valet Boxes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">TRAVEL ACCESSORIES</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Charms</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bags & Totes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Toiletry Bags</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer1">
+                                        <img class="imgcontainer1" src="images/092221-meganav-accessories.jpg" alt="">
+                                        <span class="imgtxt">SHOP JWERELY BOX</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Home Decor</a><span class="r8arrow"></span></div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">HOME DECOR</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Snow Globes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Clocks</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Frames</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Photo Albums</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Vases</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Table Decor</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wall Decor</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Door Knockers</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Address Plaques</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Throws & Pillows</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">HOME OFFICE</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Journals & Padfolios</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Pens & Pencils</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Business Card Holders & Cases</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Pen Holders & Desk Organizers</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Name Plates</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Desk Clocks</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Globes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Desk Accessories</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Tech Accessories</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-snowglobes-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP SNOWGLOBES</span>
+                                    </div>
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-frames-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP FRAMES</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Drinkware & Entertaining</a><span class="r8arrow"></span>
+                            </div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">DRINKWARE & BAR</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wine Glasses</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Champagne Flutes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bar Glasses</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Beer Mugs & Beer Glasses</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Coffee Mugs & Tea Cups</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bar Accessories</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Decanters</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Flasks</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">TRAVEL DRINKWARE</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Tumblers & Water Bottles</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">KITCHEN & ENTERTAINING</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cutting Boards & Cheese Boards</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Serving Trays & Serving Pieces</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Grilling Tools</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Utensils</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Kitchen Linens</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">COLLECTIONS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bestselling Drinkware</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Outdoor Entertaining</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cut Crystal Drinkware</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">SHOP BY BRAND</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Corkcicle</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Stanley</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">BruMate</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Riedel</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Luigi Bormioli</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Waterford</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-drinkware-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP 25% OFF SELECT TUMBLERS</span>
+                                    </div>
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-cuttingboard-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP CUTTING BOARDS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Baby & Kids</a><span class="r8arrow"></span></div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">GIFTS FOR KIDS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Snow Globes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Piggy Banks</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Kids Jewelry</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Keepsake & Jewelry Boxes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Frames & Decor</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Blankets & Bath Towels</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Backpacks & Water Bottles</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Toys</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">GIFTS FOR BABIES</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Baby Keepsakes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Baby Blankets</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Stuffed Animals</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer1">
+                                        <img class="imgcontainer1" src="images/092221-meganav-baby-100x480.jpg" alt="">
+                                        <span class="imgtxt">SHOP BABY</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Wedding & Anniversary</a><span class="r8arrow"></span>
+                            </div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">WEDDING GIFTS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wedding Frames & Albums</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wedding Glasses & Vases</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Snow Globes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Gifts for the Home</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">WEDDING DAY</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wedding Flutes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cake Knives & Cake Servers</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Guest Books & Card Boxes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Unity Candles</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Jewelry & Accessories</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">WEDDING PARTY</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bride</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Groom</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bridesmaids</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Groomsmen</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Parents</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Flower Girl</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Ring Bearer</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wedding Helper & Officiants</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">ANNIVERSARY GIFTS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">50th Anniversary</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">COLLECTIONS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Top Wedding Gifts</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Engagement GIfts</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bridal Shower Gifts</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Crystal Gifts</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">BRANDS WE LOVE</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Luigi Bormioli</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Vera Wang Wedgwood</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Waterford</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Riedel</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-flutes-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP WEDDING FLUTES</span>
+                                    </div>
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-wedparty-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP WEDDING PARTY</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Office & Business</a><span class="r8arrow"></span></div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">OFFICE & BUSINESS GIFTS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Business Card Holders & Cases</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Name Plates</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Pens & Pencils</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Frames & Albums</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Journals & Padfolios</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Paperweights</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Desk Accessories</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Vases</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Drinkware</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Travel Mugs & Water Bottles</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bags & Luggage Tags</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">RECOGNITION GIFTS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Awards</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Clocks</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Globes</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Plaques</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">COLLECTIONS</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Retirement Gifts</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Employee Appreciation</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Crystal Business Gifts</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">SHOP BY BRAND</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Brumate</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Bulova</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Conklin</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Corkcicle</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Cross</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Monteverde</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Reflections</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-imgs">
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2" src="images/092221-meganav-clocks-500x500.jpg"
+                                            alt="">
+                                        <span class="imgtxt">SHOP CLOCKS</span>
+                                    </div>
+                                    <div class="nav-imgcontainer2">
+                                        <img class="imgcontainer2"
+                                            src="images/meganav-images092221-meganav-writing-500x500.jpg" alt="">
+                                        <span class="imgtxt">SHOP PENS & PENCILS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="dropdown">
+                            <div class="dropbtn"><a href="#">Sale</a><span class="r8arrow"></span></div>
+                            <div class="dropdown-content">
+                                <div class="nav-cols">
+                                    <div class="nav-col">
+                                        <div class="nav-section">
+                                            <div class="sec-link">
+                                                <span class="sec-title">SALE & CLEARANCE</span>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Jewelry</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Accessories</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Home Decor</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Drinkware & Entertaining</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Baby & Kids</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Wedding</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Office & Business</a>
+                                                </div>
+                                                <div class="sec-container">
+                                                    <a href="#" class="section-link">Shop All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+    <section>
+        <div class="breadcrumbContainer">
+            <h5>
+                <span>Him / Engraved Watches For Men / Fossil Men's Garrett Stainless Steel Chronograph Watch</span>
+            </h5>
+        </div>
+    </section>
+    <div class="productDetailsContainer">
+        <div class="productImagesContainer">
+            <div class="thumbnailImageBlock">
+                <div class="thumbnailContainer">
+                    <div class="thumbnail1">
+                        <div class="dynamic-container image-1x1-ratio-desktop">
+                            <img src="images/fw1-s.jfif" alt="fossil watch">
+                        </div>
+                    </div>
+                    <div class="thumbnail1">
+                        <div class="dynamic-container image-1x1-ratio-desktop">
+                            <img src="images/fw2-s.jfif" alt="fossil watch">
+                        </div>
+                    </div>
+                    <div class="thumbnail1">
+                        <div class="dynamic-container image-1x1-ratio-desktop">
+                            <img src="images/fw3-s.webp" alt="fossil watch">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainProductImageContainer">
+                <div class="dynamic-container image-1x1-ratio-desktop">
+                    <img id="MainProductImage" class="img-responsive" src="images/fwl-1.jfif" alt="fossil watch">
+                </div>
+                <div class="thumbnailImageBlock mobileTablet">
+                    <div class="thumbnailContainer">
+                        <div class="thumbnail1">
+                            <div class="dynamic-container image-1x1-ratio-desktop">
+                                <img src="images/fw1-s.jfif" alt="fossil watch">
+                            </div>
+                        </div>
+                        <div class="thumbnail1">
+                            <div class="dynamic-container image-1x1-ratio-desktop">
+                                <img src="images/fw2-s.jfif" alt="fossil watch">
+                            </div>
+                        </div>
+                        <div class="thumbnail1">
+                            <div class="dynamic-container image-1x1-ratio-desktop">
+                                <img src="images/fw3-s.webp" alt="fossil watch">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ShareOptionsContainer">
+                    <div class="ShareOptions">
+                        <a title="Facebook" class="addthis_button_facebook" href="#">
+                            <span class="facebookShareIcon"></span>
+                        </a>
+                        <a title="Pinterest" class="addthis_button_pinterest at300b" href="#">
+                            <span class="pinterestShareIcon"></span>
+                        </a>
+                        <div class="atclear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobileProductImageContainer">
+                <div class="container">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/fwmob1.jfif" alt="Los Angeles" style="width:100%">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/fwmob2.jfif" alt="Chicago" style="width:100%">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/fwmob3.webp" alt="New york" style="width:100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ProductInformationContainer">
+            <div class="ProductName">
+                <h1>Fossil Men's Garrett Stainless Steel Chronograph Watch</h1>
+            </div>
+            <div class="PDPPriceSection">
+                <div class="price strike">$139.00</div>
+                <div class="price sale">Sale</div>
+                <div class="price sale">$97.30</div>
+            </div>
+            <h5 class="secondaryCalloutTextPDP">ENJOY 30% OFF!</h5>
+            <label class="labelCallouttext">Price reflects discount.</label>
+            <div class="productQuantityContainer">
+                <label for="quantity">Quantity:</label>
+                <div class="quantityContainer">
+                    <button class="quantityReduce">-</button>
+                    <input name="quantity">
+                    <button class="quantityIncrease">+</button>
+                </div>
+            </div>
+            <div id="delivery-inventory-error">We are sorry to inform you that this product is out of stock.</div>
+            <div class="addToCartButtonsContainer">
+                <button class="personalizeButton">Personalize &amp; Add To Bag</button>
+            </div>
+            <div class="productLongDescriptionContainer">
+                <div class="descriptionButtonContainer">
+                    <button class="descriptionButton selectedOption">
+                        <p>
+                            DESCRIPTION
+                        </p>
+                    </button>
+                    <button class="detailsButton">
+                        <p>
+                            DETAILS
+                        </p>
+                    </button>
+                </div>
+                <div class="descriptionContainer">
+                    <p class="ProductLongDescription">Help him stay styled every day with our Fossil Men's Garrett
+                        Stainless Steel Chronograph Watch. This silver-tone watch features a classic design with a blue
+                        dial, rotating bezel, Arabics and ticks numerals, and a Quartz Chronograph date. It is
+                        water-resistant for added safety. Engrave the back of the watch with a name, date, or short
+                        message to create a special gift.</p>
+                    <p class="ProductLongDescription details">
+                    <p>Size: 44m x 44m x 44m; 12mm thickness</p>
+                    <p>Material: Stainless steel</p>
+                    <p>Battery: SR621SW (included)</p>
+                    <p>Inspiration: This is a great gift for a husband, boyfriend, or dad to celebrate Father's Day, a
+                        birthday, or anniversary.</p>
+                    </p>
+                </div>
+            </div>
+            <p class="productId">Item 363639</p>
+        </div>
+    </div>
+    <div class="ShareOptionsContainer mobile">
+        <div class="ShareOptions">
+            <a title="Facebook" class="addthis_button_facebook" href="#">
+                <span class="facebookShareIcon"></span>
+            </a>
+            <a title="Pinterest" class="addthis_button_pinterest at300b" href="#">
+                <span class="pinterestShareIcon"></span>
+            </a>
+            <div class="atclear"></div>
+        </div>
+    </div>
+    <!-- <div class="reviewsContainer">
+        <div class="bv-action-bar">
+            <h2 class="bv-action-bar-header">Reviews</h2>
+        </div>
+        <div class="bv-section-summary">
+            <div class="bv-section-summary-table">
+                <div class="bv-section-summary-inline">
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    </div>
+    <section class="footer-ico">
+        <div class="footer-ico-container">
+            <div class="footer-icons">
+                <a href="#"><img src="images/icon-location.svg" alt="location img">
+                    <p>FIND A STORE</p>
+                </a>
+                <a href="#"><img class="f-ico-img" src="images/icon-phone.svg" alt="phone img">
+                    <p>866-902-4438</p>
+                </a>
+                <a href="#"><img class="f-ico-img" src="images/icon-email.svg" alt="email img">
+                    <p>SUPPORT@THINGSREMEMBERED.COM</p>
+                </a>
+                <a href="#"><img class="f-ico-img" src="images/icon-chat.svg" alt="location img">
+                    <p>CUSTOMER SERVICE</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="col-block sub-wrap">
+        <p class="footer-para">Personalized Gift Inspiration In Your Inbox</p>
+        <p class="footer-off">New subscribers get $5 off your first purchase of $25+</p>
+        <div class="footer-emailbox">
+            <input type="email" name="" id="" placeholder="Enter Your Email Address">
+            <input type="submit" value="SIGN UP">
+        </div>
+        <div class="icons">
+            <ul>
+                <li>
+                    <a href="#" target="_blank"><img src="images/icon-fb.svg"></a>
+                    <a href="#" target="_blank"><img src="images/icon-ig.svg"></a>
+                    <a href="#" target="_blank"><img src="images/icon-twitter.svg"></a>
+                    <a href="#" target="_blank"><img src="images/icon-pinterest.svg"></a>
+                    <a href="#" target="_blank"><img src="images/icon-youtube.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-row">
+        <div class="col-block">
+            <div class="footer-text">
+                <p>CUSTOMER CARE</p>
+                <span class="r8arrow"></span>
+            </div>
+            <ul>
+                <li><a href="#" target="_blank">Contact Us</a></li>
+                <li><a href="#" target="_blank">Order Status</a></li>
+                <li><a href="#" target="_blank">Shipping Information</a></li>
+                <li><a href="#" target="_blank">Return Policy</a></li>
+                <li><a href="#" target="_blank">FAQs</a></li>
+                <li><a href="#" target="_blank">Covid-19 Response</a></li>
+                <li><a href="#" target="_blank">Product Recalls</a></li>
+            </ul>
+        </div>
+        <div class="col-block">
+            <div class="footer-text">
+                <p>OUR COMPANY</p>
+                <span class="r8arrow"></span>
+            </div>
+            <ul>
+                <li><a href="#" target="_blank">About Us</a></li>
+                <li><a href="#" target="_blank">Store Locator</a></li>
+                <li><a href="#" target="_blank">Personalization</a></li>
+                <li><a href="#" target="_blank">Services</a></li>
+                <li><a href="#" target="_blank">Gift Wrap</a></li>
+                <li><a href="#" target="_blank">Careers</a></li>
+                <li><a href="#" target="_blank">Press</a></li>
+            </ul>
+        </div>
+        <div class="col-block">
+            <div class="footer-text">
+                <p>BUSINESS SERVICES</p>
+                <span class="r8arrow"></span>
+            </div>
+            <ul>
+                <li><a href="#" target="_blank">Shop Our Business Site</a></li>
+                <li><a href="#" target="_blank">Contact a Business Rep</a></li>
+                <li><a href="#" target="_blank">Business Accounts</a></li>
+                <li><a href="#" target="_blank">Large Order Discounts</a></li>
+                <li><a href="#" target="_blank">Add Your Company Logo</a></li>
+            </ul>
+        </div>
+        <div class="col-block">
+            <div class="footer-text">
+                <p>TOP SEARCHES</p>
+                <span class="r8arrow"></span>
+            </div>
+            <ul>
+                <li><a href="#" target="_blank">Personalized Gifts For Him</a></li>
+                <li><a href="#" target="_blank">Personalized Gifts For Her</a></li>
+                <li><a href="#" target="_blank">Customized Gifts</a></li>
+                <li><a href="#" target="_blank">Personalized Wedding</a></li>
+                <li><a href="#" target="_blank">Gifts</a></li>
+                <li><a href="#" target="_blank">Engraved Watches</a></li>
+                <li><a href="#" target="_blank">Personalized Necklaces</a></li>
+                <li><a href="#" target="_blank">Engraved Bracelets</a></li>
+                <li><a href="#" target="_blank">Engraved Jewelry</a></li>
+            </ul>
+        </div>
+        <div class="col-block">
+            <p class="footer-para">Personalized Gift Inspiration In Your Inbox</p>
+            <p class="footer-off">New subscribers get $5 off your first purchase of $25+</p>
+            <div class="footer-emailbox">
+                <input type="email" name="" id="" placeholder="Enter Your Email Address">
+                <input type="submit" value="SIGN UP">
+            </div>
+            <div class="icons">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank"><img src="images/icon-fb.svg"></a>
+                        <a href="#" target="_blank"><img src="images/icon-ig.svg"></a>
+                        <a href="#" target="_blank"><img src="images/icon-twitter.svg"></a>
+                        <a href="#" target="_blank"><img src="images/icon-pinterest.svg"></a>
+                        <a href="#" target="_blank"><img src="images/icon-youtube.svg"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="footer-nav">
+            <span><a href="#">Privacy Policy & Security</a></span>
+            |
+            <span><a href="#">Terms Of Use</a></span>
+            |
+            <span><a href="#">Accessibility</a></span>
+            |
+            <span><a href="#">Site Map</a></span>
+            |
+            <span><a href="#">California Supply Chains Act</a></span>
+            |
+            <span><a href="#">California Proposition 65</a></span>
+            |
+            <span><a href="#">California Privacy Rights</a></span>
+            |
+            <span><a href="#">Alabama SSUT Program</a></span>
+        </div>
+        <div class="footer-copyright">
+            <span>&copy; Things Remembered 2021. All rights reserved.</span>
+        </div>
+    </div>
+    <div id="scrollup" class="scrollup" onclick="topFunction()">
+        <a href="#">
+            <img src="images/icon-back to top.svg" alt="scroll up">
+        </a>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
